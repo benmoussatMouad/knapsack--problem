@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Knapsack Problem</title>
+
+    <style>
+        .container {
+            display: flex;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Knapsack Problem</h1>
+
+
+    <div class="container">
+        <section>
+            <h2>Define the sack and add items</h2>
+
+            <div id="messaging">
+                <p id="message-text"></p>
+            </div>
+
+            <form action="">
+                <label>Sack Weight :</label>
+                <input type="text" id="sack-weight">
+                <input type="button" id="submit-weight" value="Create">
+            </form>
+
+            <br>
+
+            <form action="">
+
+                <label>Item name:</label>
+                <input type="text" id="item-name">
+
+                <label>Item value:</label>
+                <input type="text" id="item-value">
+
+                <label>Item weight:</label>
+                <input type="text" id="item-weight">
+
+                <input type="button" value="Add" id="submit-item">
+            </form>
+
+            <section>
+                <h3>Items in the sack</h3>
+                <ul id="item-list">
+                </ul>
+            </section>
+        </section>
+
+        <div>
+            <img src="knapsack.jpg" alt="">
+        </div>
+    </div>
+
+    <input type="button" value="Find the best combination" id="submit-result">
+    <section id="result">
+        <ul id="result-list">
+
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
